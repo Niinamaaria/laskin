@@ -1,0 +1,132 @@
+.form {
+    margin: 3rem 3rem;
+}
+
+.title {
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+.form_years {
+    background-color: #000000;
+    color: #ffffff;
+    max-height: 1.5rem;
+    min-height: 1.5rem;
+    min-width: 30rem;
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    margin-bottom: 1em;
+}
+
+ /*.form_benefit {
+    background-color: #000000;
+    color: #ffffff;
+    max-height: 1.5rem;
+    min-height: 1.5rem;
+    min-width: 22rem;
+    max-width: 22rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.form_row {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    width: 100%;
+    position: relative;
+}
+
+.form button {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 50%;
+}
+
+.form input {
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-color: #878786;
+    font-size: 0.9rem;
+    margin: 0.3rem;
+    max-width: 3rem;
+    min-width: 3rem;
+    margin-left: 0.5em;
+}
+
+.form :read-only {
+    border: none;
+}  
+
+form label {
+    font-size: 0.93rem;
+}
+
+.currentsales {
+    background-color: #878786;
+    color: #ffffff;
+    max-width: 30rem;
+    min-width: 30rem;
+}
+
+.currentsales input {
+    background-color: #878786;
+    border: none;
+} 
+
+.newsales {
+    background-color: #cd1719;
+    color: #ffffff;
+    max-width: 30rem;
+    min-width: 30rem;
+}
+.newsales input {
+    background-color: #cd1719;
+    //border-color: #cd1719;
+    border: none;
+} 
+
+.totalbenefit {
+    background-color: #3fa535;
+    color: #ffffff;
+    max-width: 30rem;
+    min-width: 30rem;
+}
+
+.totalbenefit input {
+    background-color: #3fa535;
+    //border-color: #000000;
+    border: none;
+} 
+
+.help {
+    font-size: 18px;
+}
+
+.tooltip {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+}
+
+.data h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+}
